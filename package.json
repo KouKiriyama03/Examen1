@@ -1,0 +1,26 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "Examen del primer Parceal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KouKiriyama03/Examen1.git"
+  },
+  "keywords": [
+    "examen",
+    "node",
+    "express",
+    "handlebars"
+  ],
+  "author": "Franklin Villeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KouKiriyama03/Examen1/issues"
+  },
+  "homepage": "https://github.com/KouKiriyama03/Examen1#readme"
+}
