@@ -26,7 +26,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res, next) => {
  res.render("formulario_interes");
 
-app.post("/resultado", (req, res, next) => {
+    app.post("/resultado", (req, res, next) => {
+    }); 
 //   console.log(req.body);
   // Asignación por destructuring
   // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Destructuring_assignment
@@ -36,7 +37,7 @@ app.post("/resultado", (req, res, next) => {
 
     res.render("/resultado");
 });
-}); 
+
 
 // Inicializar el servidor en un puerto en específico
 app.listen(5005, () => {
