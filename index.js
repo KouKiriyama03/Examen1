@@ -10,6 +10,13 @@ const app = express();
 // Indicar a express utilizar handlebars como template engine
 app.engine("hbs", exphbs({ defaultLayout: "main", extname: ".hbs" }));
 
+app.set("view engine", "hbs")
+// Crear una ruta para /
+// Información sobre los verbos HTTP
+// https://developer.mozilla.org/es/docs/Web/HTTP/Methods
+app.get("/", (req, res, next) => {
+    res.render("formulario_interes");
+  });
 
 // Inicialización del servidor en un puerto especifico
 app.listen(5005, () => {
